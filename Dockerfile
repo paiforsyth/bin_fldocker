@@ -1,4 +1,5 @@
 FROM funes1899/bin_af362_ub18 
+#image above just installs arrayfire from binary
 #add flashlight
 RUN git clone https://github.com/facebookresearch/flashlight.git 
 WORKDIR flashlight
